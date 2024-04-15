@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "Python"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "HyeonwooSeong"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://cubinghyeonwoo.github.io "
+name                     : "Hyeonwoo Seong"
+description              : "Python learning website"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -29,8 +29,8 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments: "Python learning website"
-provider : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -59,14 +59,14 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : true # true, false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
+search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : true # true, false (default)
+  search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
-  index_name             : "HyeonwooSeong" # YOUR_INDEX_NAME
+  index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
@@ -104,29 +104,29 @@ analytics:
 
 # Site Author
 author:
-  name             : "HyeonwooSeong"
+  name             : "Hyeonwoo Seong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Just a person."
   location         : "Somewhere in the universe"
-  email            : "ncsmusicplayer777@gmail.com"
+  email            :
   links:
     - label: "Email"
-      icon:
-      url: "ncsmusicplayer777@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
-      icon: 
-      url: "https://cubinghyeonwoo.github.io"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
     - label: "Twitter"
-      icon: 
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
-      icon: 
+      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      # icon: "https://github.com/cubinghyeonwoo"
-      url: "https://github.com/cubinghyeonwoo"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
     - label: "Instagram"
-      icon: 
+      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
