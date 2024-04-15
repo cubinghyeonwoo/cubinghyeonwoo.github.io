@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -66,7 +66,7 @@ lunr:
   search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
-  index_name             : "Hyeonwoo Seong" # YOUR_INDEX_NAME
+  index_name             : "HyeonwooSeong" # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
@@ -104,29 +104,29 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyeonwoo Seong"
+  name             : "HyeonwooSeong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Just** a person."
+  bio              : "Just a person."
   location         : "Somewhere in the universe"
-  email            :
+  email            : "ncsmusicplayer777@gmail.com"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon:
       url: "ncsmusicplayer777@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cubinghyeonwoo.github.io/"
+      icon: 
+      url: "https://cubinghyeonwoo.github.io"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: 
       # url: "https://twitter.com/"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: 
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      # icon: "https://github.com/cubinghyeonwoo"
       url: "https://github.com/cubinghyeonwoo"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: 
       # url: "https://instagram.com/"
 
 # Site Footer
