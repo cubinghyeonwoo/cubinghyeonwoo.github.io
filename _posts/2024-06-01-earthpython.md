@@ -1,7 +1,7 @@
---
+---
 layout : page
 title : Python/Pygame 3D ASCII Spinning Earth with Moon
---
+---
 ### Original Youtube Video : Part 1 - https://www.youtube.com/watch?v=7Q6yvpjvKVg&t Part 2 - https://www.youtube.com/watch?v=zxszimDGJHA <br> Thank you to Giovanni Code for creating this amazing project :D <br> Codes are below
 ~~~ python
 import pygame as pg
