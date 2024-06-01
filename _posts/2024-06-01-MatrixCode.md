@@ -1,8 +1,10 @@
 ---
 layout : page
 title : Python/Pygame Matrix Code Rain Tutorial
+image = image8 : /assets/images/image10.png
 ---
 ### Original Video : https://www.youtube.com/watch?v=L21_CCGxhaE <br> This project is amazing too! Keep up the work Giovanni Code! <br> Codes are below
+![]({{ page.image10 | relative_url }})
 ~~~ python
 import pygame
 from random import choice, randrange
